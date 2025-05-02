@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: cloudkoda/nginx:v0.1.4
+          image: cloudkoda/nginx:v0.1.5
           ports:
             - containerPort: 80
