@@ -21,7 +21,7 @@ echo $tmp_dir
 git clone git@github.com:fsmendes/lesson-158.git $tmp_dir
 
 # Update image tag
-sed -i '' -e "s/cloudkoda\/nginx:.*/cloudkoda\/nginx:$new_ver/g" $tmp_dir/my-app/1-deployment.yaml
+sed -e "s/cloudkoda\/nginx:.*/cloudkoda\/nginx:$new_ver/g" $tmp_dir/my-app/1-deployment.yaml
 
 # Commit and push
 cd $tmp_dir
