@@ -1,0 +1,10 @@
+---
+apiVersion: s3.aws.upbound.io/v1beta2
+kind: Bucket
+metadata:
+  name: aws-bucket-useast1-crossplane-fmendes-5
+spec:
+  forProvider:
+    region: us-east-1
+  providerConfigRef:
+    name: default
